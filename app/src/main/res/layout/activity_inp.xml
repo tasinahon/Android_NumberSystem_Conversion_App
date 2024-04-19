@@ -113,4 +113,21 @@
         app:layout_constraintEnd_toEndOf="@+id/reqvalue"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="@+id/reqvalue" />
+
+    <TextView
+        android:id="@+id/value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:text="hkl"
+        android:textAlignment="center"
+        android:textColor="#F4EDED"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/totext"
+        app:layout_constraintStart_toStartOf="@+id/totext"
+        app:layout_constraintTop_toBottomOf="@+id/totext"
+        app:layout_constraintVertical_bias="0.0" />
 </androidx.constraintlayout.widget.ConstraintLayout>

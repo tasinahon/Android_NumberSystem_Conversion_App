@@ -13,7 +13,7 @@ public class InpActivity extends AppCompatActivity {
     String from,to;
     TextView textViewfrom,textViewto;
     ConstraintLayout ok;
-    TextView req,totext;
+    TextView req,totext,value;
 
     @SuppressLint("MissingInflatedId")
     @Override
@@ -28,11 +28,13 @@ public class InpActivity extends AppCompatActivity {
 
         req=findViewById(R.id.reqvalue);
         totext=findViewById(R.id.totext);
+        value=findViewById(R.id.value);
         totext.setText(to);
         ok=findViewById(R.id.ok);
         ok.setOnClickListener((view -> {
             req.setVisibility(View.VISIBLE);
             totext.setVisibility(View.VISIBLE);
+            value.setVisibility(View.VISIBLE);
 
         }));
 
