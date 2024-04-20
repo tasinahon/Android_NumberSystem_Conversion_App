@@ -207,6 +207,8 @@ public class BasicOperations {
 
         String total = nc.DecimalToAny(Double.toString(temp),base);
 
+        String[] tem = total.split("\\.");
+        if(tem[1].equalsIgnoreCase("0")) total = tem[0];
         return total;
     }
 
@@ -227,6 +229,7 @@ public class BasicOperations {
 
         String num1 = One_s_Complement(num);
         String ans = Addition(num1,"1",2);
+
 
         return ans;
 

@@ -23,7 +23,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName2"
+        android:id="@+id/editText1"
         android:layout_width="320dp"
         android:layout_height="60dp"
         android:layout_marginTop="68dp"
@@ -78,7 +78,6 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="80dp"
         android:padding="3dp"
-        android:text="Required"
         android:textColor="#F4EFEF"
         android:textSize="30sp"
         android:textStyle="bold"

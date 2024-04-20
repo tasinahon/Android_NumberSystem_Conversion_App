@@ -65,7 +65,7 @@
         app:layout_constraintTop_toBottomOf="@+id/linearLayout2" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/editText1"
         android:layout_width="320dp"
         android:layout_height="60dp"
         android:layout_marginTop="16dp"
@@ -94,10 +94,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
+        app:layout_constraintTop_toBottomOf="@+id/editText1" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName1"
+        android:id="@+id/editText2"
         android:layout_width="320dp"
         android:layout_height="60dp"
         android:background="@drawable/inputbar"
@@ -122,7 +122,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName1">
+        app:layout_constraintTop_toBottomOf="@+id/editText2">
 
         <TextView
             android:id="@+id/textView9"
@@ -148,7 +148,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
-        android:text="Result After "
         android:textColor="#F3EDED"
         android:textSize="28sp"
         android:textStyle="bold"
