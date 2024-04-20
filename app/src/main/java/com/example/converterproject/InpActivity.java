@@ -57,6 +57,5 @@ public class InpActivity extends AppCompatActivity {
             value.setVisibility(View.VISIBLE);
 
         }));
-
     }
 }

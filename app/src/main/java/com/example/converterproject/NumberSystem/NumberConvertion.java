@@ -164,6 +164,7 @@ public class NumberConvertion {
         String temp = AnyToDecimal(userInput,base1);
         String total = DecimalToAny(temp,base2);
 
+        if(total.length()==0) total = "0";
         return total;
     }
 }
