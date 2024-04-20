@@ -40,20 +40,18 @@
         android:layout_width="320dp"
         android:layout_height="60dp"
         android:layout_marginStart="100dp"
+        android:layout_marginTop="32dp"
         android:layout_marginEnd="101dp"
-        android:layout_marginBottom="472dp"
         android:background="@drawable/inputbar"
         android:ems="10"
-        android:inputType="number|textPersonName"
+        android:inputType="textPersonName"
         android:padding="10dp"
         android:textColor="#FAF6F6"
         android:textSize="20sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/fromt"
-        app:layout_constraintVertical_bias="0.826" />
+        app:layout_constraintTop_toBottomOf="@+id/fromt" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/ok"
@@ -94,11 +92,10 @@
         android:textColor="#F4F0F0"
         android:textSize="28sp"
         android:visibility="invisible"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/totext"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ok"
-        app:layout_constraintVertical_bias="0.302" />
+        app:layout_constraintTop_toBottomOf="@+id/ok" />
 
     <TextView
         android:id="@+id/totext"
