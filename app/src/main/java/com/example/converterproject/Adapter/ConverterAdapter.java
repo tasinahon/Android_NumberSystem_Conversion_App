@@ -12,6 +12,7 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
+import com.example.converterproject.BasicOpActivity;
 import com.example.converterproject.ConversionActivity;
 import com.example.converterproject.Domain.Type;
 import com.example.converterproject.R;
@@ -44,6 +45,11 @@ public class ConverterAdapter extends RecyclerView.Adapter<ConverterAdapter.view
            if(item.getName().equals("Conversion"))
            {
                Intent intent=new Intent(holder.itemView.getContext(), ConversionActivity.class);
+               context.startActivity(intent);
+           }
+           else if(item.getName().equals("Basic Operations"))
+           {
+               Intent intent=new Intent(holder.itemView.getContext(), BasicOpActivity.class);
                context.startActivity(intent);
            }
         });
