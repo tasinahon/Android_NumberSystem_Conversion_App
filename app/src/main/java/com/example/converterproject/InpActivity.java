@@ -5,7 +5,6 @@ import androidx.constraintlayout.widget.ConstraintLayout;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;
-import android.icu.text.NumberingSystem;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
@@ -40,7 +39,7 @@ public class InpActivity extends AppCompatActivity {
         value=findViewById(R.id.value);
 
         totext.setText(to);
-        ok=findViewById(R.id.ok);
+        ok=findViewById(R.id.ok3);
         int base1,base2;
 
         if(!from.equalsIgnoreCase("Others")) base1 = nc.baseMap.get(from);

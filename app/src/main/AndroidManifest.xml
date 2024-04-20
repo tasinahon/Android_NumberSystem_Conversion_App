@@ -13,6 +13,20 @@
         android:theme="@style/Theme.ConverterProject"
         tools:targetApi="31">
         <activity
+            android:name=".ComplementActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".BasicOpDetail"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".BasicOpActivity"
             android:exported="false">
             <meta-data
